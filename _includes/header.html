@@ -1,4 +1,5 @@
 <!-- Header -->
+<!-- item.url {{item.url}} || page.url {{page.url}} -->
 <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
   <div class="container">
   
@@ -10,28 +11,25 @@
       <span class="icon-bar"></span>
     </button>
 
-    <a class="navbar-brand wow fadeInDownBig" href="index.html"><img class="office-logo" src="../assets/img/slider/Office.png" alt="Office"></a>      
+    <!-- <a class="navbar-brand wow fadeInDownBig" href="index.html"><img class="office-logo" src="../assets/img/slider/Office.png" alt="Office"></a> -->      
   </div>
 
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav pull-right">
-      <li class="active">
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/about.html">About</a>
-      </li>
-      <li>
-        <a href="/blog.html">Blog</a>
-      </li>
-      <li>
-        <a href="/team.html">Team</a>
-      </li>
-      <li>
-        <a href="/contact.html"><span>Contact</span></a>
-      </li>
-    </ul>         
-  </div>
+  {% for item in site.data.navbar %}
+  {% assign item_state = "" %}
+
+  {% if item.url == page.url %}
+    {% assign item_state = "active" %}
+  {% endif %}
+
+  <li class="{{item_state}}">
+    <a href="{{item.url}}{% unless item.url == "/" %}.html{% endunless%}">{{item.text}}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+
   </div>
 </nav>
 
