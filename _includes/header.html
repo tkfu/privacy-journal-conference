@@ -24,7 +24,7 @@
   {% endif %}
 
   <li class="{{item_state}}">
-    <a href="{{item.url}}{% unless item.url == "/" %}.html{% endunless%}">{{item.text}}</a>
+    <a href="{{item.url}}">{{item.text}}</a>
   </li>
   {% endfor %}
 </ul>

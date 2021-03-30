@@ -1,0 +1,73 @@
+themes:
+  - title: "Privacy: a multidisciplinary perspective"
+    summary: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+  - title: "Privacy in research, practice and policy"
+    summary: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+  - title: "Privacy in Society"
+    summary: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+  - title: "Privacy in the Home"
+    summary: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+  - title: "Privacy and the Individual"
+    summary: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+
+speakers:
+  - name: Anita Allen
+    description: Henry R. Silverman Professor of Law and Professor of Philosophy, University of Pennsylvania
+    image:
+    url: https://www.law.upenn.edu/cf/faculty/aallen/
+  - name: Joe Cannataci
+    description: UN Special rapporteur on the right to privacy, Head of the Department of Information Policy & Governance, University of Malta, Chair of European Information Policy & Technology Law, University of Groningen
+    image:
+    url: https://www.ohchr.org/EN/Issues/Privacy/SR/Pages/JoeCannataci.aspx
+  - name: Paul De Hert
+    description: Professor, Head of Department, Interdisciplinary Legal Studies, Vrije Universiteit Brussels 
+    image:
+    url: https://www.vub.be/en/people/paul-de-hert
+  - name: Nele De Raedt
+    description: Professor of History, Theory and Criticism of Architecture, Université Catholique de Louvain 
+    image:
+    url: https://uclouvain.be/en/directories/nele.deraedt
+  - name: Simone Fischer-Hübner
+    description: Professor of Computer Science, Karlstad University
+    image:
+    url: https://www.kau.se/forskare/simone-fischer-hubner
+  - name: Momoyo Kaijima
+    description: Professor of Architectural Behaviorology, ETH Zürich and Atelier Bow-wow, Tokyo
+    image:
+    url: https://kaijima.arch.ethz.ch/?page_id=26
+  - name: Béla Kapossy
+    description: Professor of Modern History (political ideas), Dean, Collège des Humanités, University of Lausanne
+    image:
+    url: https://dhcenter-unil-epfl.com/en/biography/bela-kapossy/
+  - name: Sonia Livingstone
+    description: Professor of Social Psychology, London School of Economics and Political Science
+    image:
+    url: https://www.lse.ac.uk/media-and-communications/people/academic-staff/sonia-livingstone
+  - name: Kristina Milnor
+    description: Professor of Classics, Barnard College, Columbia University
+    image:
+    url: https://classics.barnard.edu/profiles/kristina-milnor
+  - name: Lena Cowen Orlin
+    description: Professor of English, Georgetown University
+    image:
+    url: https://gufaculty360.georgetown.edu/s/contact/00336000014RctmAAC/lena-orlin
+  - name: Frank Pasquale
+    description: Professor of Law, Brooklyn Law School
+    image:
+    url: https://www.brooklaw.edu/Contact-Us/Pasquale-Frank
+  - name: Amy Russell
+    description: Classics and Ancient History, Brown University
+    image:
+    url: https://www.brown.edu/academics/classics/news/2020/10/dr-amy-russell-appointed-assistant-professor-classics
+  - name: Valerie Steeves
+    description: Professor, Department of Criminology, Faculty of Social Sciences, University of Ottawa
+    image:
+    url: https://cdp-hrc.uottawa.ca/en/people/steeves-valerie
+  - name: David Vincent
+    description: Professor Emeritus of History, Open University
+    image:
+    url: http://www.open.ac.uk/people/dmv33
+  - name: Dr Wojciech Wiewiórowski
+    description: European Data Protection Supervisor
+    image:
+    url: https://edps.europa.eu/about-edps/members-mission/supervisors/wojciech-wiewiórowski_en

@@ -1,3 +1,13 @@
 body {
   background-color: #cef4ff
 }
+
+.theme-boxes {
+  margin-bottom: 15px
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}

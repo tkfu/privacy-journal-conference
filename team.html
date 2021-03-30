@@ -6,77 +6,28 @@ permalink: /team
 
 <div id="banners"></div>
 <div class="container">
-  <div class="row">
-    <div class="col-md-6">
+  <div class="row equal">
+
+  {% for speaker in site.data.content.speakers %}
+
+    <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
       <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+        <a href="{{speaker.url}}">
         <div class="square pull-left">
           <img src="../assets/img/team/member2.png" alt="Feature-img" height="80" width="100">
         </div>
         <h4>
-          John Doe
+          {{speaker.name}}
         </h4>
         <p>
-          Web Developer , Technext
+          {{speaker.description}}
         </p>
-      </div>
-      <div class="blockquote-box blockquote-primary animated wow fadeInLeft clearfix">
-        <div class="square pull-left">
-          <img src="../assets/img/team/member1.png" alt="Feature-img" height="80" width="100">
-        </div>
-        <h4>
-          Jane Ley
-        </h4>
-        <p>
-          Software Developer , Technext
-        </p>
-      </div>
-      <div class="blockquote-box blockquote-success animated wow fadeInLeft clearfix">
-        <div class="square pull-left">
-          <img src="../assets/img/team/member2.png" alt="Feature-img" height="80" width="100">
-        </div>
-        <h4>
-          Jany Doe
-        </h4>
-        <p>
-          App Developer , Technext
-        </p>
-      </div>
-  </div>
-  <div class="col-md-6">
-    <div class="blockquote-box blockquote-danger animated wow fadeInRight clearfix">
-      <div class="square pull-left">
-        <img src="../assets/img/team/member3.png" alt="Feature-img" height="80" width="100">
-      </div>
-      <h4>
-        John Doe
-      </h4>
-      <p>
-        Android Developer , Technext
-      </p>
-    </div>
-    <div class="blockquote-box blockquote-warning animated wow fadeInRight clearfix">
-      <div class="square pull-left">
-        <img src="../assets/img/team/member2.png" alt="Feature-img" height="80" width="100">
-      </div>
-      <h4>
-        Chris Way
-      </h4>
-      <p>
-        iOS Developer , Technext
-      </p>
-    </div>
-    <div class="blockquote-box animated wow fadeInRight clearfix">
-      <div class="square pull-left">
-        <img src="../assets/img/team/member1.png" alt="Feature-img" height="80" width="100">
-      </div>
-      <h4>
-        Christopher
-      </h4>
-      <p>
-        Web Developer , Technext
-      </p>
+      </a>
       </div>
     </div>
+
+  {% endfor %}
+
   </div>
 </div>
 <!--End Main Container -->
