@@ -1,0 +1,56 @@
+---
+layout: default_style
+permalink: /board
+---
+<!-- Main Container -->
+
+<div id="banners"></div>
+<div class="container">
+  <div class="row equal">
+
+  {% for member in site.data.content.board_members %}
+
+    <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+      <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+        <a href="#" data-featherlight="#{{ member.name | slugify }}">
+        <div class="square pull-left">
+          <img src="{{member.image}}" alt="Feature-img" width="100%">
+        </div>
+        <h4>
+          {{member.name}}
+        </h4>
+        <p>
+          {{member.description}}
+        </p>
+      </a>
+      </div>
+    </div>
+
+
+  {% endfor %}
+
+  </div>
+</div>
+<!--End Main Container -->
+
+<div class="boxcontent">
+{% for member in site.data.content.board_members %}
+<div id="{{ member.name | slugify }}">
+    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+      <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+          <img src="{{member.image}}" alt="Feature-img" width="100%">
+
+        <h4>
+          {{member.name}}
+        </h4>
+        <p>
+          {{member.description}}
+        </p>
+      </div>
+    </div>
+    <div>
+      {{member.bio}}
+    </div>
+</div>
+{% endfor %}
+</div>

@@ -11,3 +11,11 @@ body {
   display: -webkit-flex;
   flex-wrap: wrap;
 }
+
+ul li {
+  list-style: outside
+}
+
+.boxcontent {
+  display: none
+}

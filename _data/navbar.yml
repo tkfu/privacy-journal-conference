@@ -1,14 +1,18 @@
-- text: Home
+- text: Conference
   url: /
 
-- text: About
+- text: Speakers
+  url: /speakers
+
+- text: About the Journal
   url: /about
 
-- text: Blog
-  url: /blog
+- text: Editorial Board
+  url: /board
 
-- text: Contact
-  url: /contact
+# - text: Blog
+#   url: /blog
 
-- text: Team
-  url: /team
+- text: Registration
+  url: /register
+

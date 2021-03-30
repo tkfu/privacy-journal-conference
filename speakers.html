@@ -1,0 +1,55 @@
+---
+layout: default_style
+permalink: /speakers
+---
+<!-- Main Container -->
+
+<div id="banners"></div>
+<div class="container">
+  <div class="row equal">
+
+  {% for speaker in site.data.content.speakers %}
+
+    <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+      <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+        <a href="#" data-featherlight="#{{ speaker.name | slugify }}">
+        <div class="square pull-left">
+          <img src="{{speaker.image}}" alt="Feature-img" width="100%">
+        </div>
+        <h4>
+          {{speaker.name}}
+        </h4>
+        <p>
+          {{speaker.description}}
+        </p>
+      </a>
+      </div>
+    </div>
+
+  {% endfor %}
+
+  </div>
+</div>
+<!--End Main Container -->
+
+<div class="boxcontent">
+{% for speaker in site.data.content.speakers %}
+<div id="{{ speaker.name | slugify }}">
+    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+      <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+          <img src="{{speaker.image}}" alt="Feature-img" width="100%">
+
+        <h4>
+          {{speaker.name}}
+        </h4>
+        <p>
+          {{speaker.description}}
+        </p>
+      </div>
+    </div>
+    <div>
+      {{speaker.bio}}
+    </div>
+</div>
+{% endfor %}
+</div>

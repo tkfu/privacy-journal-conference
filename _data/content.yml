@@ -12,62 +12,142 @@ themes:
 
 speakers:
   - name: Anita Allen
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Henry R. Silverman Professor of Law and Professor of Philosophy, University of Pennsylvania
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.law.upenn.edu/cf/faculty/aallen/
   - name: Joe Cannataci
-    description: UN Special rapporteur on the right to privacy, Head of the Department of Information Policy & Governance, University of Malta, Chair of European Information Policy & Technology Law, University of Groningen
-    image:
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: UN Special rapporteur on the right to privacy, Head of the Department of Information Policy and Governance, University of Malta, Chair of European Information Policy and Technology Law, University of Groningen
+    image: /assets/img/team/member1.png
     url: https://www.ohchr.org/EN/Issues/Privacy/SR/Pages/JoeCannataci.aspx
   - name: Paul De Hert
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor, Head of Department, Interdisciplinary Legal Studies, Vrije Universiteit Brussels 
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.vub.be/en/people/paul-de-hert
   - name: Nele De Raedt
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of History, Theory and Criticism of Architecture, Université Catholique de Louvain 
-    image:
+    image: /assets/img/team/member1.png
     url: https://uclouvain.be/en/directories/nele.deraedt
   - name: Simone Fischer-Hübner
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Computer Science, Karlstad University
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.kau.se/forskare/simone-fischer-hubner
   - name: Momoyo Kaijima
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Architectural Behaviorology, ETH Zürich and Atelier Bow-wow, Tokyo
-    image:
+    image: /assets/img/team/member1.png
     url: https://kaijima.arch.ethz.ch/?page_id=26
   - name: Béla Kapossy
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Modern History (political ideas), Dean, Collège des Humanités, University of Lausanne
-    image:
+    image: /assets/img/team/member1.png
     url: https://dhcenter-unil-epfl.com/en/biography/bela-kapossy/
   - name: Sonia Livingstone
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Social Psychology, London School of Economics and Political Science
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.lse.ac.uk/media-and-communications/people/academic-staff/sonia-livingstone
   - name: Kristina Milnor
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Classics, Barnard College, Columbia University
-    image:
+    image: /assets/img/team/member1.png
     url: https://classics.barnard.edu/profiles/kristina-milnor
   - name: Lena Cowen Orlin
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of English, Georgetown University
-    image:
+    image: /assets/img/team/member1.png
     url: https://gufaculty360.georgetown.edu/s/contact/00336000014RctmAAC/lena-orlin
   - name: Frank Pasquale
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor of Law, Brooklyn Law School
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.brooklaw.edu/Contact-Us/Pasquale-Frank
   - name: Amy Russell
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Classics and Ancient History, Brown University
-    image:
+    image: /assets/img/team/member1.png
     url: https://www.brown.edu/academics/classics/news/2020/10/dr-amy-russell-appointed-assistant-professor-classics
   - name: Valerie Steeves
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor, Department of Criminology, Faculty of Social Sciences, University of Ottawa
-    image:
+    image: /assets/img/team/member1.png
     url: https://cdp-hrc.uottawa.ca/en/people/steeves-valerie
   - name: David Vincent
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: Professor Emeritus of History, Open University
-    image:
+    image: /assets/img/team/member1.png
     url: http://www.open.ac.uk/people/dmv33
   - name: Dr Wojciech Wiewiórowski
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
     description: European Data Protection Supervisor
-    image:
+    image: /assets/img/team/member1.png
     url: https://edps.europa.eu/about-edps/members-mission/supervisors/wojciech-wiewiórowski_en
+
+board_members:
+  - name: Mette Birkedal Bruun
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Director of PRIVACY, Professor of Church History, University of Copenhagen, Chief editor
+    image: /assets/img/team/member1.png
+    url:
+  - name: Natália da Silva Perez
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Postdoctoral researcher (social history), PRIVACY, Assistant editor
+    image: /assets/img/team/member1.png
+    url:
+  - name: Andrew Riggsby
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Prof. in Classics, Professor of Art History, University of Texas at Austin
+    image: /assets/img/team/member1.png
+    url:
+  - name: Anne Cheung
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor of Law, University of Hong Kong
+    image: /assets/img/team/member1.png
+    url:
+  - name: Beate Rössler
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor of Ethics, University of Amsterdam
+    image: /assets/img/team/member1.png
+    url:
+  - name: Catherine Richardson
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor in Renaissance Studies, University of Kent
+    image: /assets/img/team/member1.png
+    url:
+  - name: Frederik Borgesius
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor of Law, Radboud University
+    image: /assets/img/team/member1.png
+    url:
+  - name: Itsuko Yamaguchi
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor of Information Law and Policy, University of Tokyo
+    image: /assets/img/team/member1.png
+    url:
+  - name: Kai Rannenberg
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Chair of Mobile Business and Multilateral Security, Goethe University Frankfurt
+    image: /assets/img/team/member1.png
+    url:
+  - name: Maarten Delbeke
+    bio: Cras interdum placerat libero vel tempor. Curabitur gravida iaculis erat quis dignissim.
+    description: Professor of the History and Theory of Architecture, ETH, Zurich
+    image: /assets/img/team/member1.png
+    url:
+
+
+
+
+
+
+
+
+
+
+
+
+
