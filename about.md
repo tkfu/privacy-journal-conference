@@ -1,6 +1,6 @@
 ---
 layout: default_style
-permalink: /about
+permalink: /about/
 ---
 
 <!-- Main Container -->

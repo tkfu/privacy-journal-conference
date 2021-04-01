@@ -1,6 +1,6 @@
 ---
 layout: default_style
-permalink: /register
+permalink: /register/
 ---
 
 <!-- Main Container -->
