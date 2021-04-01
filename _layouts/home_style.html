@@ -20,9 +20,13 @@
         <div class="container">
             <div class="row">
                 <div class="services-header">
-                    <h1 class="services-header-title">Inaugural Conference</h1>
-                    <p class="services-header-body">At the Privacy Studies Journal inaugural conference, we will have a series of presentations by eminent specialists on privacy from different fields and strands of research. It is our ambition that the atmosphere of the workshop is one of generosity, experimentation and mutual inspiration – even though we are not in the same room.</p>
-                    <p>The conference will be structured in five thematic clusters:</p><hr>
+                    <h1 class="services-header-title"><b>Inaugural Conference</b></h1>
+                    <h2 class="services-header-title">26 to 28 April 2021</h2>
+                    <p class="services-header-body">The Privacy Studies Journal is an interdisciplinary, open access, peer-reviewed journal published by the Danish National Research Foundation Centre for Privacy Studies, University of Copenhagen. </p> At its inaugural conference, we will have a series of presentations by eminent specialists on privacy from different fields and strands of research. It is our ambition that the atmosphere of the workshop is one of generosity, experimentation, and mutual inspiration, <br>even though we are not in the same room.</p> 
+                    <br>
+                    <p>
+                    <p><b>Program</b></p><hr>
+                  </p>
                 </div>
             </div>
 
@@ -30,19 +34,29 @@
 
   {% for theme in site.data.content.themes %}
 
+                <a href="#" data-featherlight="#{{ theme.title | slugify }}" >
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 theme-boxes">
                     <div class="services-group wow animated fadeInLeft" data-wow-offset="40">
                         <h4 class="services-title">{{theme.title}}</h4>
                         <p class="services-body">{{theme.summary}}</p>
                     </div>
                 </div>
-
+                </a>
   {% endfor %}
         
     
         </div>      
     </section>
 
+<div class="boxcontent">
+  {% for theme in site.data.content.themes %}
+
+    <div id="{{ theme.title | slugify }}">
+{{theme.schedule}}
+    </div>
+
+  {% endfor %}
+  </div>
   </body>
 
   {% include footer.html %}
