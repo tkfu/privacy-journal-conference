@@ -11,7 +11,7 @@ permalink: /board/
   {% for member in site.data.content.board_members %}
 
     <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
-      <div class="blockquote-box blockquote-info animated wow fadeInLeft clearfix">
+      <div class="blockquote-box blockquote-info animated wow clearfix">
         <a href="#" data-featherlight="#{{ member.name | slugify }}">
         <div class="square pull-left">
           <img src="{{member.image}}" alt="Feature-img" width="100%">
