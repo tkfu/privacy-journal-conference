@@ -6,7 +6,7 @@ permalink: /register/
 <!-- Main Container -->
 
 <div class="row container-kamn">
-  <img src="assets/img/journal_logo.jpeg" class="blog-post" alt="Feature-img" align="right" width="100%"> 
+  <img src="/assets/img/journal_logo.jpeg" class="blog-post" alt="Privacy Studies Journal logo" align="right" width="100%"> 
 </div>
 
 <div id="banners"></div>
