@@ -1,5 +1,4 @@
 <!-- Header -->
-<!-- item.url {{item.url}} || page.url {{page.url}} -->
 <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
   <div class="container">
   
@@ -19,7 +18,11 @@
   {% for item in site.data.navbar %}
   {% assign item_state = "" %}
 
-  {% if item.url == page.url %}
+  {% assign itemurl = item.url | append: "/" %}
+
+  {% if itemurl == page.url %}
+    {% assign item_state = "active" %}
+  {% elsif item.url == page.url %}
     {% assign item_state = "active" %}
   {% endif %}
 
