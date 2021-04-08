@@ -14,7 +14,7 @@ permalink: /about/
   <div class="row">
     <div class="side-left col-sm-4 col-md-4" markdown="1">
 
-<h3 class="lead">  About the Centre for Privacy Studies : </h3><hr>
+<h3 class="lead">  About the Centre for Privacy Studies </h3><hr>
 
 The Danish National Research Foundation Centre for Privacy Studies (PRIVACY) was established in September 2017 through a generous grant of 50 million DKK (approx. 6.7 million Euro) from the [Danish National Research Foundation (DNRF)](http://dg.dk/en/){:target="_blank"}.
 
@@ -26,7 +26,7 @@ PRIVACY focuses on the period 1500–1800 that sees critical changes in individu
 
 <div class="col-sm-8 col-md-8" markdown="1">
   
-<h3 class="lead" id="anchor1"> About Privacy Studies Journal :</h3><hr>
+<h3 class="lead" id="anchor1"> About Privacy Studies Journal </h3>
 
 _Privacy Studies Journal_ is an interdisciplinary, open access, peer-reviewed journal. It is published by the Danish National Research Foundation Centre for Privacy Studies, University of Copenhagen ([PRIVACY](https://teol.ku.dk/privacy/){:target="_blank"}), and has its home on the online journal platform [tidsskrift.dk](https://tidsskrift.dk){:target="_blank"} hosted by the Danish Royal Library.
 
