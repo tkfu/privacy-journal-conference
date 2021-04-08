@@ -23,3 +23,41 @@ ul li {
 .copyright {
 	background-color: black
 }
+
+/*black background and box border for speaker/board pictures*/
+.square {
+	background-color: black !important
+}
+.blockquote-box.blockquote-info {
+    border-color: black;
+}
+
+/*links black*/
+a {
+	color: #000
+}
+
+/*navbar box outlines*/
+.active {
+  background: #6BAAA8 !important;
+  color: white;
+}
+.navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #6BAAA8;
+}
+
+/*smaller text for main page decription*/
+.services-header-body {
+    font-size: 20px;
+}
+
+/*sidebar fits its own height*/
+.side-left {
+	height: 100%;
+}
+
+/*add padding to body content so it lines up with the sidebar header*/
+.about-content {
+	padding-top: 30px
+}
