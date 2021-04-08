@@ -3,8 +3,9 @@ body {
 }
 
 .theme-boxes {
-  margin-bottom: 15px
+	margin-bottom: 15px
 }
+
 
 .equal {
   display: flex;
@@ -24,17 +25,20 @@ ul li {
 	background-color: black
 }
 
-/*black background and box border for speaker/board pictures*/
+/*green background and box border for speaker/board pictures*/
 .square {
-	background-color: black !important
+	background-color: #6BAAA8 !important
 }
 .blockquote-box.blockquote-info {
-    border-color: black;
+    border-color: #6BAAA8;
 }
 
-/*links black*/
+/*links grey, or black when hovered*/
 a {
-	color: #000
+	color: #777
+}
+a:hover {
+	color: black;
 }
 
 /*navbar box outlines*/
@@ -60,4 +64,12 @@ a {
 /*add padding to body content so it lines up with the sidebar header*/
 .about-content {
 	padding-top: 30px
+}
+
+/*link text colour for sidebar with dark background*/
+.side-left > p > a {
+	color: #bbb;
+}
+.side-left > p > a:hover {
+	color: #eee;
 }
