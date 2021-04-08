@@ -24,7 +24,7 @@ PRIVACY focuses on the period 1500–1800 that sees critical changes in individu
 
 </div>
 
-<div class="col-sm-8 col-md-8" markdown="1">
+<div class="col-sm-8 col-md-8 about-content" markdown="1">
   
 <h3 class="lead" id="anchor1"> About Privacy Studies Journal </h3>
 
