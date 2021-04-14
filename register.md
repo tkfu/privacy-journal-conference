@@ -37,8 +37,20 @@ To register free of charge for the inaugural conference of the Privacy Studies J
     </div>
 </a>
 </div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h3 class="lead" id="anchor1"> A special thanks to</h3>
 
+<div class="row">
 
+<div>
+	<a href="https://bbb.tbm.tudelft.nl" target="_blank"><img src="/assets/img/TUDelft-logo.png" width="50%" align="side-left"></a>	
+</div>
+<h3 class="lead" id="anchor1"> for the use of their BigBlueButton instance.</h3>
+
+</div>
 </div>  
 </div>    
 </div>  

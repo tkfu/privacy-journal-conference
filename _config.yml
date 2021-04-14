@@ -1,8 +1,7 @@
 title: Privacy Studies Journal Inaugural Conference
 email: privacy@teol.ku.dk
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+  Inaugural Conference of the Privacy Studies Journal, 26-28 April 2021
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://privacystudies.org # the base hostname & protocol for your site, e.g. http://example.com
 
