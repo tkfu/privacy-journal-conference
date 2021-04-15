@@ -30,6 +30,7 @@ PRIVACY focuses on the period 1500–1800 that sees critical changes in individu
 
 To register free of charge for the inaugural conference of the Privacy Studies Journal, please click the button below and fill in your details (the buttom will take you to a new page). Closer to the date of the conference, you will receive a link via email to join the video conference call.
 
+<div class="row">
 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 theme-boxes">
 <a href="https://teol.ku.dk/privacy/events/events-2020/online-inaugural-conference-privacy-studies-journal/register-for-the-conference-here/" target="_blank">
     <div class="services-group" data-wow-offset="40">
@@ -37,19 +38,17 @@ To register free of charge for the inaugural conference of the Privacy Studies J
     </div>
 </a>
 </div>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<h3 class="lead" id="anchor1"> A special thanks to</h3>
+</div>
 
 <div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 theme-boxes">
 
+<h3 class="lead" id="anchor1"> A special thanks to</h3>
 <div>
-	<a href="https://bbb.tbm.tudelft.nl" target="_blank"><img src="/assets/img/TUDelft-logo.png" width="50%" align="side-left"></a>	
+<a href="https://bbb.tbm.tudelft.nl" target="_blank"><img src="/assets/img/TUDelft-logo.png" width="50%" align="side-left"></a>
 </div>
 <h3 class="lead" id="anchor1"> for the use of their BigBlueButton instance.</h3>
-
+</div>
 </div>
 </div>  
 </div>    
