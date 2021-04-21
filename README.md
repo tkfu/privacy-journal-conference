@@ -1,35 +1,55 @@
-# Business Jekyll Theme
+# Privacy journal conference website
 
-Business Jekyll Theme is a theme that is designed to be used for small and medium business. It is designed by a team from [Technext](https://github.com/technext/). The theme is then ported over by [Melvin Ch'ng](http://melvinchng.github.io) for Jekyll support. The original source code can be obainted from Technext's [repository](https://github.com/technext/office)
+This site is built in Jekyll using the [Business Jekyll Theme](https://business-jekyll-theme.github.io).
 
-Unlike most Jekyll Themes, Business Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your business website or promote certain project. I reorganized all the files and make it Jekyll friendly.
+## Building and developing
 
-Big thanks to the creator of Office as this theme would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
+You'll need Ruby (tested with 2.7.2, but probably anything 2ish will work).
 
-**Example Site**
-- [Business Jekyll Theme](https://business-jekyll-theme.github.io)
+First, set up your environment with `bundle install`
 
-**Example Site From The Original Creator**
-- [Office Template](http://demo.themewagon.com/preview/office-responsive-multipage-bootstrap-template)
+Then, you can build and serve the site locally using jekyll: `bundle exec jekyll s`
 
-## Feature
-- Responsive layout
-- CSS Framework - Bootstrap 3
-- Beautiful icons by Fontawesome
-- Clean, simple and elegant
-- Multi page Template
-- Well commented and structured coding
-- Easy to use
-- It's Free!
+## Committing changes to git
 
-## Note
-I removed certain features from the original theme packages as we do not really need it. I modified the original source code slightly to make it more mobile friendly and reusable. 
+### Adding files
 
-## Installation
-1. For first time user, you have to install Ruby and Rails. If you do not have Ruby on Rails installed, you may follow [this tutorial](http://melvinchng.github.io/rails/RubyOnRailsInstallation.html) that I wrote for Windows, Linux, and MacOS (installation videos are included).
-2. Install Jekyll by using the command `gem install jekyll`.
-3. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
-4. Your site should be accessible at `localhost:4000`.
-5. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
+When you've changed something and you're happy with it, you should commit your changes to git. Think of it like setting a save point.
 
-## Enjoy!
+If you've added any new files, you'll need to tell git to start tracking them with `git add`. This will add everything in the whole directory:
+
+    git add .
+
+This will add a single file:
+
+    git add path/to/my/file.html
+
+### Creating a commit
+
+`git commit` creates a commit with the files you've added. You can also tell it to automatically add any files you've changed with the `-a` option, and you can specify a commit message with the `-m` option.
+
+The most common way to do it is this:
+
+    git commit -a -m 'a commit message describing your changes'
+
+Note the single quotes enclosing the commit message. That means you can't have single quotes in the commit message unless you ask google how to do it first.
+
+### Pushing to github
+
+Once you've committed your changes locally, you can push to github so it's backed up and othe collaborators can work on it:
+
+    git push origin master
+
+
+## Publishing
+
+The actual site is at https://privacystudies.org/, and it's hosted by one.com. To push a new version of the site, you should first build the site using `bundle exec jekyll b`, then use an SFTP client to copy the contents of the `_site/` directory to the privacy studies account. You can do that with the command line sftp client like this (from the privacy-journal-conference directory):
+
+    sftp privacystudies.org@ssh.privacystudies.org
+
+After entering the password, you should see the `sftp>` prompt. Type or paste the following:
+
+    put -pR _site/*
+
+That's it!
+
