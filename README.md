@@ -36,7 +36,7 @@ Note the single quotes enclosing the commit message. That means you can't have s
 
 ### Pushing to github
 
-Once you've committed your changes locally, you can push to github so it's backed up and othe collaborators can work on it:
+Once you've committed your changes locally, you can push to github so it's backed up and other collaborators can work on it:
 
     git push origin master
 
