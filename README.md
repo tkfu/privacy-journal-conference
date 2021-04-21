@@ -49,7 +49,7 @@ The actual site is at https://privacystudies.org/, and it's hosted by one.com. T
 
 After entering the password, you should see the `sftp>` prompt. Type or paste the following:
 
-    put -pR _site/*
+    put -R _site/*
 
 That's it!
 
